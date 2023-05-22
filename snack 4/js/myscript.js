@@ -14,9 +14,6 @@ if (wordLegth(wordOne, wordTwo)){
 }
 
 
-
-
-
 function wordLegth(wordOne, wordTwo) {
     
     if (wordOne.legth === wordTwo.legth) {
@@ -24,7 +21,7 @@ function wordLegth(wordOne, wordTwo) {
     }
 
     return false;
-    }
+}
 
 
 
