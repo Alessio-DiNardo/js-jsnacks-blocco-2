@@ -6,20 +6,18 @@
 
 //genero un numero casuale
 
-let casualNumber = Math.round(Math.random() * 100);
+const casualNumber = Math.floor((Math.random() * 100) + 1);
 
-const userNumber = parseInt(prompt("Insert your number"));
+let userNumber = parseInt(prompt("Insert your number"));
 
-while (userNumber != casualNumber && userNumber === casualNumber ){
+while (userNumber != casualNumber ){
 
         if (userNumber < casualNumber){
             console.log("your number is wrong and - than..");
-            userNumber = parseInt(prompt("Insert your number"));
-        } if ( userNumber > casualNumber){
+        } else ( userNumber > casualNumber){
             console.log("your numer is wrong and + than..");
+        }
             userNumber = parseInt(prompt("Insert your number"));
-        } else if (userNumber === casualNumber){
-            console.log("congratulation you number is true");
         }
 
-}
+console.log("you gyessed it! the number was: ", casualNumber);
