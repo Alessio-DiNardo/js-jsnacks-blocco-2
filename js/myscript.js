@@ -3,7 +3,7 @@
 
 
 let numberList = [];
-let sum = 0:
+let sum = 0;
 
 while (sum < 50){
     const userNumber = parseInt(prompt("Type a new number"));
