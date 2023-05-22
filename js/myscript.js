@@ -2,16 +2,18 @@
 
 
 
-let array = [];
-let i = 0 ;
-let sum = sum < 50;
+let numberList = [];
+let sum = 0:
 
-while (i < array.length && sum === 50){
-    console.log(array[i]);
-    if (sum < 50){
-    const userNumber = parseInt(prompt("insert a number"));
-    array.push(userNumber);
-}   else if (sum += 50);{
-    i++;
-    }
+while (sum < 50){
+    const userNumber = parseInt(prompt("Type a new number"));
+    sum = sum + userNumber;
+    numberList.push(userNumber);
+    console.log(userNumber)
 }
+
+console.log(sum);
+console.log(numberList);
+
+
+

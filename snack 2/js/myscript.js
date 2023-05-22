@@ -12,10 +12,10 @@ const userNumber = parseInt(prompt("Insert your number"));
 
 while (userNumber != casualNumber && userNumber === casualNumber ){
 
-        if (userNumber != casualNumber && userNumber < casualNumber){
+        if (userNumber < casualNumber){
             console.log("your number is wrong and - than..");
             userNumber = parseInt(prompt("Insert your number"));
-        } if (userNumber != casualNumber && userNumber < casualNumber){
+        } if ( userNumber > casualNumber){
             console.log("your numer is wrong and + than..");
             userNumber = parseInt(prompt("Insert your number"));
         } else if (userNumber === casualNumber){
