@@ -9,7 +9,7 @@ if (wordLegth(wordOne, wordTwo)){
     console.log("sono lunghe uguali");
 } else if (wordOne.length > wordTwo.length){
     console.log("la prima parola è più lunga");  
-} else (wordOne.length < wordTwo.length){
+} else {
     console.log("la seconda parola è più lunga");
 }
 
