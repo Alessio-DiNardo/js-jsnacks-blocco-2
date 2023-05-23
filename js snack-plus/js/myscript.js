@@ -32,7 +32,3 @@ function getNewLiElement(){
 
 
 
-function generateList(li) {
-    document.createElement("li");
-    lists.appendChild(li);
-}
