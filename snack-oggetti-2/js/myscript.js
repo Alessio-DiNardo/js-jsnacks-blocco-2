@@ -90,3 +90,5 @@ let sumOfWeights = 0;
 for (let index = 0; index < peppers.length; index++) {
     sumOfWeights += peppers[index].weight;
 }
+
+console.log(sumOfWeights);
