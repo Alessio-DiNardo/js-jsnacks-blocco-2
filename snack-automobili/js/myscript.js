@@ -40,7 +40,7 @@ const automobili = [
     {
         marca: "volvo",
         modello: "vorm",
-        alimentazione: "diesel"
+        alimentazione: "metano"
     },
     {
         marca: "volkswagen",
@@ -50,7 +50,7 @@ const automobili = [
     {
         marca: "renault",
         modello: "clio",
-        alimentazione: "diesel"
+        alimentazione: "metano"
     },
     {
         marca: "citroen",
@@ -85,7 +85,7 @@ const automobili = [
     {
         marca: "jeep",
         modello: "renagade",
-        alimentazione: "benzina"
+        alimentazione: "elettrico"
     },
     {
         marca: "cupra",
@@ -93,3 +93,27 @@ const automobili = [
         alimentazione: "benzina"
     },
 ]
+
+
+const gasolineCars = [];
+
+for (let index = 0; index < automobili.length; index++) {
+    const car = automobili[index];
+    if (car.alimentazione === "benzina"){
+        gasolineCars.push(car);
+    }
+    }
+
+const dieselCars = [];
+
+automobili.forEach((element) => {
+    if (element.fuelType === "diesel"){
+        dieselCars.push(element);
+
+    }
+});
+
+
+const otherCars =
+
+    automobili.filter(car => car.alimentazione !== "diesel" && car.alimentazione !== "benzina" );
